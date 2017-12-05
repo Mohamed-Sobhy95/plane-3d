@@ -1,0 +1,38 @@
+﻿Build started 05/12/2017 08:02:21 م.
+     1>Project "C:\Users\Mohamed\Documents\Visual Studio 2015\Projects\modelloader\modelloader\modelloader.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt Main.cpp
+         Main.cpp
+     1>c:\program files (x86)\windows kits\8.1\include\shared\minwindef.h(130): warning C4005: 'APIENTRY': macro redefinition
+         c:\users\mohamed\documents\opengl stuff\include\glfw\glfw3.h(92): note: see previous definition of 'APIENTRY'
+     1>c:\users\mohamed\documents\visual studio 2015\projects\modelloader\modelloader\main.cpp(178): warning C4305: '+=': truncation from 'double' to 'float'
+     1>c:\users\mohamed\documents\visual studio 2015\projects\modelloader\modelloader\main.cpp(192): warning C4018: '<': signed/unsigned mismatch
+     1>c:\users\mohamed\documents\visual studio 2015\projects\modelloader\modelloader\main.cpp(201): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\mohamed\documents\visual studio 2015\projects\modelloader\modelloader\main.cpp(204): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\mohamed\documents\visual studio 2015\projects\modelloader\modelloader\main.cpp(211): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\mohamed\documents\visual studio 2015\projects\modelloader\modelloader\main.cpp(214): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\mohamed\documents\visual studio 2015\projects\modelloader\modelloader\main.cpp(223): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\mohamed\documents\visual studio 2015\projects\modelloader\modelloader\main.cpp(226): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Mohamed\Documents\Visual Studio 2015\Projects\modelloader\Debug\modelloader.exe" /INCREMENTAL /NOLOGO opengl32.lib glfw3.lib legacy_stdio_definitions.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\Mohamed\Documents\Visual Studio 2015\Projects\modelloader\Debug\modelloader.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Mohamed\Documents\Visual Studio 2015\Projects\modelloader\Debug\modelloader.lib" /MACHINE:X86 Debug\Main.obj
+         Debug\ObjModel.obj
+     1>glfw3.lib(context.obj) : warning LNK4099: PDB 'glfw.pdb' was not found with 'glfw3.lib(context.obj)' or at 'C:\Users\Mohamed\Documents\Visual Studio 2015\Projects\modelloader\Debug\glfw.pdb'; linking object as if no debug info
+     1>glfw3.lib(init.obj) : warning LNK4099: PDB 'glfw.pdb' was not found with 'glfw3.lib(init.obj)' or at 'C:\Users\Mohamed\Documents\Visual Studio 2015\Projects\modelloader\Debug\glfw.pdb'; linking object as if no debug info
+     1>glfw3.lib(input.obj) : warning LNK4099: PDB 'glfw.pdb' was not found with 'glfw3.lib(input.obj)' or at 'C:\Users\Mohamed\Documents\Visual Studio 2015\Projects\modelloader\Debug\glfw.pdb'; linking object as if no debug info
+     1>glfw3.lib(monitor.obj) : warning LNK4099: PDB 'glfw.pdb' was not found with 'glfw3.lib(monitor.obj)' or at 'C:\Users\Mohamed\Documents\Visual Studio 2015\Projects\modelloader\Debug\glfw.pdb'; linking object as if no debug info
+     1>glfw3.lib(vulkan.obj) : warning LNK4099: PDB 'glfw.pdb' was not found with 'glfw3.lib(vulkan.obj)' or at 'C:\Users\Mohamed\Documents\Visual Studio 2015\Projects\modelloader\Debug\glfw.pdb'; linking object as if no debug info
+     1>glfw3.lib(window.obj) : warning LNK4099: PDB 'glfw.pdb' was not found with 'glfw3.lib(window.obj)' or at 'C:\Users\Mohamed\Documents\Visual Studio 2015\Projects\modelloader\Debug\glfw.pdb'; linking object as if no debug info
+     1>glfw3.lib(win32_init.obj) : warning LNK4099: PDB 'glfw.pdb' was not found with 'glfw3.lib(win32_init.obj)' or at 'C:\Users\Mohamed\Documents\Visual Studio 2015\Projects\modelloader\Debug\glfw.pdb'; linking object as if no debug info
+     1>glfw3.lib(win32_joystick.obj) : warning LNK4099: PDB 'glfw.pdb' was not found with 'glfw3.lib(win32_joystick.obj)' or at 'C:\Users\Mohamed\Documents\Visual Studio 2015\Projects\modelloader\Debug\glfw.pdb'; linking object as if no debug info
+     1>glfw3.lib(win32_monitor.obj) : warning LNK4099: PDB 'glfw.pdb' was not found with 'glfw3.lib(win32_monitor.obj)' or at 'C:\Users\Mohamed\Documents\Visual Studio 2015\Projects\modelloader\Debug\glfw.pdb'; linking object as if no debug info
+     1>glfw3.lib(win32_time.obj) : warning LNK4099: PDB 'glfw.pdb' was not found with 'glfw3.lib(win32_time.obj)' or at 'C:\Users\Mohamed\Documents\Visual Studio 2015\Projects\modelloader\Debug\glfw.pdb'; linking object as if no debug info
+     1>glfw3.lib(win32_tls.obj) : warning LNK4099: PDB 'glfw.pdb' was not found with 'glfw3.lib(win32_tls.obj)' or at 'C:\Users\Mohamed\Documents\Visual Studio 2015\Projects\modelloader\Debug\glfw.pdb'; linking object as if no debug info
+     1>glfw3.lib(win32_window.obj) : warning LNK4099: PDB 'glfw.pdb' was not found with 'glfw3.lib(win32_window.obj)' or at 'C:\Users\Mohamed\Documents\Visual Studio 2015\Projects\modelloader\Debug\glfw.pdb'; linking object as if no debug info
+     1>glfw3.lib(wgl_context.obj) : warning LNK4099: PDB 'glfw.pdb' was not found with 'glfw3.lib(wgl_context.obj)' or at 'C:\Users\Mohamed\Documents\Visual Studio 2015\Projects\modelloader\Debug\glfw.pdb'; linking object as if no debug info
+     1>glfw3.lib(egl_context.obj) : warning LNK4099: PDB 'glfw.pdb' was not found with 'glfw3.lib(egl_context.obj)' or at 'C:\Users\Mohamed\Documents\Visual Studio 2015\Projects\modelloader\Debug\glfw.pdb'; linking object as if no debug info
+         modelloader.vcxproj -> C:\Users\Mohamed\Documents\Visual Studio 2015\Projects\modelloader\Debug\modelloader.exe
+     1>Done Building Project "C:\Users\Mohamed\Documents\Visual Studio 2015\Projects\modelloader\modelloader\modelloader.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:12.53
